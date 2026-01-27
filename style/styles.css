@@ -1,7 +1,18 @@
-img {
-    width: 300px;
-    height: auto;
-    float: left;
-    margin-right: 15px;
+body {
+    background: linear-gradient(to right, rgb(140, 243, 140), rgb(56, 146, 248));
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
 
+#carouselExampleIndicators {
+    max-width: 700px;
+    margin: 20px auto;
+}
+.carousel-item img {
+    max-height: 400px;  
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;   
 }

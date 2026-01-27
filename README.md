@@ -1,1 +1,2 @@
 # my-website
+# 1/26/26 Notes: I would like to add a slideshow showing photo progress of my surgery.  I am also thinking about adding a "Mental Wellness" indicator for each week of recovery that shows how I'm handling both the phyical and mental challanges of recovery and school. Added multiple <h> blocks seperating different parts, possibly use css to help make this look MUCH better.  Added CSS Style for background gradient.
