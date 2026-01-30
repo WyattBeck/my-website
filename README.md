@@ -1,2 +1,3 @@
 # my-website
+# 1/30/26 Notes: Added accordons to replace lists for physical recovery.  Will want to add photos and carousels for each section as well.  Still working out how I want to set up mental recovery visual updates.  
 # 1/26/26 Notes: Added bootstrap for photo carousel.  After working with for awhile I finally was able to get the css to do a bit more of what I wanted to format it.  Will add captions for each image later.  I am also thinking about adding a "Mental Wellness" indicator for each week of recovery that shows how I'm handling both the phyical and mental challanges of recovery and school. Added multiple <h> blocks seperating different parts, possibly use css to help make this look MUCH better.  Added CSS Style for background gradient. 
