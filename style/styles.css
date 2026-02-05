@@ -9,6 +9,11 @@ body {
 
 h1 {
   margin: 1.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 #physicaltitle,
@@ -36,4 +41,36 @@ p {
 a:hover {
   color: rgb(255, 0, 0);
   background: rgb(255, 255, 0);
+}
+
+.accordion-item {
+  background-color: rgb(243, 244, 244);
+  border: 2px solid rgba(57, 86, 119, 0.4);
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(
+    to right,
+    rgb(140, 243, 140),
+    rgb(56, 146, 248)
+  ) !important;
+
+  color: rgb(20, 20, 20) !important;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+
+.accordion-button::after {
+  filter: brightness(0.4);
 }
