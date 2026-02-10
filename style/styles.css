@@ -74,3 +74,28 @@ a:hover {
 .accordion-button::after {
   filter: brightness(0.4);
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.left, .middle, .right{
+  flex: 1;                
+  min-width: 12rem;       
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+
+
+@media (max-width: 50rem){
+  .container{
+    flex-direction: column;
+  }
+}
+

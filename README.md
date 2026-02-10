@@ -1,4 +1,5 @@
 # my-website
+# 2/9/26 Added 3 new pages and linked to Index.html.  Moved accordons and carousels to the coorsponding pages.  Will also work on intro video for index/landing page explaining purpose of site.  
 # 2/4/26 Added second accordion set for mental health, adjusted css styles.  Looking into options for adding video updates and perhaps linking to media pages.  Maybe creating a nav bar.
 # 1/30/26 Notes: Added accordons to replace lists for physical recovery.  Will want to add photos and carousels for each section as well.  Still working out how I want to set up mental recovery visual updates.  
 # 1/26/26 Notes: Added bootstrap for photo carousel.  After working with for awhile I finally was able to get the css to do a bit more of what I wanted to format it.  Will add captions for each image later.  I am also thinking about adding a "Mental Wellness" indicator for each week of recovery that shows how I'm handling both the phyical and mental challanges of recovery and school. Added multiple <h> blocks seperating different parts, possibly use css to help make this look MUCH better.  Added CSS Style for background gradient. 
