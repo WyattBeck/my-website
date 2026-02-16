@@ -10,6 +10,7 @@ body {
 h1 {
   margin: 1.5rem;
   text-align: center;
+  font-size: 2.3rem;
 }
 
 .subtitle {
@@ -91,6 +92,13 @@ a:hover {
   border-radius: 0.75rem;
 }
 
+.nav {
+  position: fixed;
+  width: 50%;
+  bottom: auto;
+  left: 0;
+
+}
 
 
 @media (max-width: 50rem){
