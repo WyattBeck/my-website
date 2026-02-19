@@ -1,10 +1,10 @@
 body {
-  background: linear-gradient(to right, rgb(140, 243, 140), rgb(56, 146, 248));
-  background-color: rgb(173, 216, 230); 
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;      
-  line-height: 1.6;     
-  color: rgb(20, 20, 20); 
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgb(20, 20, 20);
+  background: linear-gradient(to right, rgb(140, 243, 140), rgb(56, 146, 248));
 }
 
 h1 {
@@ -12,6 +12,11 @@ h1 {
   text-align: center;
   font-size: 2.3rem;
 }
+
+p {
+  margin: 1.5rem;
+}
+
 
 .subtitle {
   text-align: center;
@@ -22,9 +27,27 @@ h1 {
   margin: 1.5rem;
 }
 
-p {
-  margin: 1.5rem;
+.KidsAtChristmas,
+.wedding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 43.75rem;
+  max-height: 25rem;
+  margin: 1.25rem auto
 }
+
+htlm {
+  scroll-behavior: smooth;
+}
+
+/* Link hover (global) */
+a:hover {
+  color: rgb(255, 0, 0);
+  background: rgb(255, 255, 0);
+}
+
+/* Carousel */
 
 #carouselExampleIndicators {
   max-width: 43.75rem; 
@@ -39,10 +62,7 @@ p {
   object-fit: cover;
 }
 
-a:hover {
-  color: rgb(255, 0, 0);
-  background: rgb(255, 255, 0);
-}
+/* Accordion (Bootstrap overrides) */
 
 .accordion-item {
   background-color: rgb(243, 244, 244);
@@ -52,31 +72,25 @@ a:hover {
   overflow: hidden;
 }
 
-
 .accordion-button,
 .accordion-button:not(.collapsed) {
-  background: linear-gradient(
-    to right,
-    rgb(140, 243, 140),
-    rgb(56, 146, 248)
-  ) !important;
-
+  background: linear-gradient(to right, rgb(140, 243, 140), rgb(56, 146, 248)) !important;
   color: rgb(20, 20, 20) !important;
   font-weight: 600;
   border-radius: 0.5rem;
 }
 
-
 .accordion-button:focus {
   box-shadow: none !important;
 }
-
 
 .accordion-button::after {
   filter: brightness(0.4);
 }
 
-.container{
+/*3-column layout*/
+
+.container {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -85,25 +99,91 @@ a:hover {
   padding: 1rem;
 }
 
-.left, .middle, .right{
-  flex: 1;                
-  min-width: 12rem;       
+.left,
+.middle,
+.right {
+  flex: 1;
+  min-width: 12rem;
   padding: 1rem;
   border-radius: 0.75rem;
 }
 
-.nav {
-  position: fixed;
-  width: 50%;
-  bottom: auto;
-  left: 0;
 
-}
-
-
-@media (max-width: 50rem){
-  .container{
+@media (max-width: 50rem) {
+  .container {
     flex-direction: column;
   }
 }
 
+
+.navbar {
+  
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+
+  padding: 1rem;
+  background: linear-gradient(to right, #7ee8a0, #3fa9f5);
+}
+
+.nav-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;          
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+
+    background: #7ee8a0;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+}
