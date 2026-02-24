@@ -1,8 +1,8 @@
 // Load shared nav into <div id="nav-component"></div>
-const isSubpage = window.location.pathname.includes("/new_pages/");
-const navPath = isSubpage ? "../components/nav.html" : "components/nav.html";
+//const isSubpage = window.location.pathname.includes("/new_pages/");
+//const navPath = isSubpage ? "../components/nav.html" : "components/nav.html";
 
-fetch(navPath)
+fetch("./components/nav.html")
   .then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status} loading ${navPath}`);
     return response.text();
