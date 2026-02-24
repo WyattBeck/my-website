@@ -1,4 +1,5 @@
 # my-website
+# 2/23/26 after multiple attemepts to correct file pathing issues with nav bar on github side I moved all pages out of sub folder.  Nav bar is still broken on github however, will research fixes over the next couple days. 
 # 2/19/26 Migrated nav bar into components file and using java script to manage nav bar. Also added family images to "About Me" so I can showcase linking to a placeholder.  
 # 2/9/26 Added 3 new pages and linked to Index.html.  Moved accordons and carousels to the coorsponding pages.  Will also work on intro video for index/landing page explaining purpose of site.  
 # 2/4/26 Added second accordion set for mental health, adjusted css styles.  Looking into options for adding video updates and perhaps linking to media pages.  Maybe creating a nav bar.
