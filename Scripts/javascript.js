@@ -2,7 +2,7 @@
 //const isSubpage = window.location.pathname.includes("/new_pages/");
 //const navPath = isSubpage ? "../components/nav.html" : "components/nav.html";
 
-fetch("./components/nav.html")
+fetch("/components/nav.html")
   .then((response) => response.text())
   .then((data) => {
     const mount = document.getElementById("nav-component");
