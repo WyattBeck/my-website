@@ -108,13 +108,11 @@ a:hover {
   border-radius: 0.75rem;
 }
 
-
-@media (max-width: 50rem) {
-  .container {
-    flex-direction: column;
-  }
+.intro-video {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
-
 
 .navbar {
   
@@ -216,3 +214,7 @@ a:hover {
     display: flex;
   }
 }
+@media (max-width: 50rem) {
+  .container {
+    flex-direction: column;
+  }
