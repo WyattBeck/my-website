@@ -64,20 +64,31 @@ a:hover {
 
 /* Accordion (Bootstrap overrides) */
 
+.accordion {
+  max-width: 95%;
+  margin: 1rem auto;
+}
+
 .accordion-item {
-  background-color: rgb(243, 244, 244);
-  border: 2px solid rgba(57, 86, 119, 0.4);
-  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(40, 60, 90, 0.45);
   border-radius: 0.75rem;
   overflow: hidden;
+  margin-bottom: 0.9rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
 }
 
 .accordion-button,
 .accordion-button:not(.collapsed) {
-  background: linear-gradient(to right, rgb(140, 243, 140), rgb(56, 146, 248)) !important;
+  background: rgba(255, 255, 255, 0.18) !important;
   color: rgb(20, 20, 20) !important;
   font-weight: 600;
-  border-radius: 0.5rem;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(40, 60, 90, 0.25);
+}
+
+.accordion-button {
+  padding: 0.95rem 1.1rem;
 }
 
 .accordion-button:focus {
@@ -85,7 +96,12 @@ a:hover {
 }
 
 .accordion-button::after {
-  filter: brightness(0.4);
+  filter: brightness(0.35);
+}
+
+.accordion-collapse,
+.accordion-body {
+  background: rgba(255, 255, 255, 0.10);
 }
 
 /*3-column layout*/
@@ -157,7 +173,7 @@ a:hover {
   text-decoration: underline;
 }
 .comments {
-  max-width: 900px;
+  max-width: 500px;
   margin: 40px auto;
   padding: 0 16px;
 }
