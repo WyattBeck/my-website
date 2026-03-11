@@ -1,4 +1,23 @@
 # my-website
+
+# 3/11/26 Added google fonts to all pages as well as cleaned up centering in about me.
+
+# 3/10/26 After the peer reveiw from Mod8 I got the following feedback from Wendy: 
+
+# "Hi Wyatt! 
+
+# This site shows a lot of set up and technique. Your embedded videos are very well done (maybe you could explain this in class?), and I like your accordion effects.
+ 
+# Some observations:
+
+# 1. On your About Me page: Maybe put your background, interests and goals into a table to group them together more?
+
+# 2. On pages with your white space, maybe do a different transition? It is rather stark now compared to your gradient. 
+
+# 3. The form on your main page takes a lot of room, maybe make it a bit smaller?"
+
+# After receiving this feedback I adjusted my acordions so the white background no matches the normal background of the website.  I also made the comment section a bit smaller so it doesn't take up the entire lower half of the homepage.  I decided to leave the colomns on the "About me" section as this is a design choice I prefer.  
+
 # 3/3/26 Uploading youtube iframe videos and embedding them into my accodons  
 # 3/2/26 After many attempts to correct the pathing issues I've faced with the navbar and github I finally decided to remove the navbar compontent from it's own folder like the other html pages.  This has corrected the issues and makes the page usable from github.
 # 2/23/26 after multiple attemepts to correct file pathing issues with nav bar on github side I moved all pages out of sub folder.  Nav bar is still broken on github however, will research fixes over the next couple days. 
